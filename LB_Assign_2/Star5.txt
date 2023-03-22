@@ -1,0 +1,18 @@
+public class Star5 
+{  
+public static void main(String args[])  
+{  
+
+for (j = 1; j<=n; j++)  
+{  
+for (i = 1; i<=n-1; i++)  
+{  
+System.out.print(" ");  
+}  
+//space--;  
+for (i = 1; i <= 2 * j - 1; i++)  
+{  
+System.out.print("*");  
+}  
+System.out.println("");  
+}  
